@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package persona;
 
 
@@ -29,14 +25,14 @@ private String nombre;
     }
 
     public void setEdad(int edad) {
-        this.edad = edad;   
+        this.edad = edad; Â  
 
     }
 
-    // Método para mostrar la información de la persona
+    // MÃ©todo para mostrar la informaciÃ³n de la persona
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad);   
+        System.out.println("Edad: " + edad); Â  
 
     }
 }
